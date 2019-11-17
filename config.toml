@@ -1,0 +1,5 @@
+baseURL = "https://kienpham.com"
+languageCode = "en-us"
+title = "Kien Pham Blog"
+theme = "Cactus"
+publishdir = "docs"
