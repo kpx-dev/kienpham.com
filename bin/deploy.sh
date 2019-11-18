@@ -18,13 +18,16 @@ echo 'Committing the site to git and pushing'
 
     git config --global user.email "action@github.com"
     git config --global user.name "Github Action"
-    git config --global github.user kienpham2000
-    git config --global github.token $GITHUB_TOKEN
+    # git config --global github.user kienpham2000
+    # git config --global github.token $GITHUB_TOKEN
 
     # if git diff --exit-code; then
     #     echo "There is nothing to commit, so aborting"
     #     exit 0
     # fi
+
+    git remote rm origin
+    git remote add origin https://${GITHUB_TOKEN}@github.com/kienpham2000/blog.git
 
     git branch master
     git checkout master
