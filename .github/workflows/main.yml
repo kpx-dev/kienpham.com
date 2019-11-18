@@ -1,4 +1,4 @@
-name: CI
+name: Deploy
 
 on: [push]
 
@@ -10,9 +10,4 @@ jobs:
     - name: Deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN2: test
       run: ./bin/deploy.sh
-    # - name: Run a multi-line script
-    #   run: |
-    #     echo Add other actions to build,
-    #     echo test, and deploy your project.
