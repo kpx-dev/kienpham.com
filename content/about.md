@@ -5,3 +5,4 @@ draft: false
 ---
 
 I'm currently living in Orange County, California.
+![kien](/about/kien.jpg)
