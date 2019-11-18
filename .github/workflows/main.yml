@@ -8,8 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Deploy
-      # env:
-      #   super_secret: ${{ secrets.SuperSecret }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: ./bin/deploy.sh
     # - name: Run a multi-line script
     #   run: |
