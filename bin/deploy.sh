@@ -13,13 +13,8 @@ echo 'Building the hugo site'
 
 echo 'Committing the site to git and pushing'
 (
-    if git config --get user.name; then
-        git config --global user.name "${GITHUB_ACTOR}"
-    fi
-
-    if ! git config --get user.email; then
-        git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-    fi
+    git config --global user.email "action@github.com"
+    git config --global user.name "Github Action"
 
     if git diff --exit-code; then
         echo "There is nothing to commit, so aborting"
