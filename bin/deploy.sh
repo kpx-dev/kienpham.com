@@ -27,7 +27,7 @@ echo 'Committing the site to git and pushing'
     # fi
 
     git remote rm origin
-    git remote add origin https://${GITHUB_TOKEN}@github.com/kienpham2000/blog.git
+    git remote add origin https://kienpham2000:${GITHUB_TOKEN}@github.com/kienpham2000/blog.git
 
     git branch master
     git checkout master
