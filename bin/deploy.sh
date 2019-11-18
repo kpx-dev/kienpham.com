@@ -13,6 +13,9 @@ echo 'Building the hugo site'
 
 echo 'Committing the site to git and pushing'
 (
+    echo "Git remote is"
+    git remote -v
+
     git config --global user.email "action@github.com"
     git config --global user.name "Github Action"
 
@@ -29,6 +32,9 @@ echo 'Committing the site to git and pushing'
 
     echo "Creating commit..."
     git commit -m "Publishing site $(date)"
+
+    echo "Git remote is"
+    git remote -v
 
     echo "Pushing to repo..."
     git push --set-upstream origin master
