@@ -13,8 +13,8 @@ echo 'Building the hugo site'
 
 echo 'Committing the site to git and pushing'
 (
-    echo "Git remote is"
-    git remote -v
+    echo "GITHUB_TOKEN2 is "
+    echo $GITHUB_TOKEN2
 
     git config --global user.email "action@github.com"
     git config --global user.name "Github Action"

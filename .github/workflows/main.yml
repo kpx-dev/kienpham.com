@@ -10,6 +10,7 @@ jobs:
     - name: Deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN2: test
       run: ./bin/deploy.sh
     # - name: Run a multi-line script
     #   run: |
