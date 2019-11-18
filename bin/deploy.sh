@@ -18,6 +18,8 @@ echo 'Committing the site to git and pushing'
 
     git config --global user.email "action@github.com"
     git config --global user.name "Github Action"
+    git config --global github.user kienpham2000
+    git config --global github.token $GITHUB_TOKEN
 
     # if git diff --exit-code; then
     #     echo "There is nothing to commit, so aborting"
