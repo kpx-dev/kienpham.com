@@ -24,19 +24,19 @@ echo 'Committing the site to git and pushing'
     git branch master
     git checkout master
 
-    echo "Adding files..."
-    add
+    # echo "Adding files..."
+    # git add .
 
-    echo "Creating commit..."
-    git commit -m "Publishing site $(date)"
+    # echo "Creating commit..."
+    # git commit -m "Publishing site $(date)"
 
-    echo "Pushing to repo..."
-    git push --set-upstream origin master
+    # echo "Pushing to repo..."
+    # git push --set-upstream origin master
 
     # Now add all the changes and commit and push
-    # git add . && \
-    # git commit -m "Publishing site $(date)" && \
-    # git push origin master
+    git add . && \
+    git commit -m "Publishing site $(date)" && \
+    git push origin master
 )
 
 echo 'Complete'
