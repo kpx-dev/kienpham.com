@@ -8,6 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Deploy
+      # env:
+      #   super_secret: ${{ secrets.SuperSecret }}
       run: ./bin/deploy.sh
     # - name: Run a multi-line script
     #   run: |
