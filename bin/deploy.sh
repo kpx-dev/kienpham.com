@@ -6,7 +6,7 @@ set -o pipefail
 HUGO_VERSION=0.59.1
 
 echo "Downloading hugo v$HUGO_VERSION"
-cd /tmp && curl -sSL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz > /tmp/hugo.tar.gz && tar -f /tmp/hugo.tar.gz -xz
+curl -sSL https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz > /tmp/hugo.tar.gz && tar -f /tmp/hugo.tar.gz -xz -C /tmp
 
 cp /tmp/hugo . && ./hugo
 rm -rf hugo
