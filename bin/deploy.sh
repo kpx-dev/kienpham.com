@@ -16,27 +16,27 @@ echo 'Committing the site to git and pushing'
     git config --global user.email "action@github.com"
     git config --global user.name "Github Action"
 
-    if git diff --exit-code; then
-        echo "There is nothing to commit, so aborting"
-        exit 0
-    fi
+    # if git diff --exit-code; then
+    #     echo "There is nothing to commit, so aborting"
+    #     exit 0
+    # fi
 
     git branch master
     git checkout master
 
-    # echo "Adding files..."
-    # git add .
+    echo "Adding files..."
+    git add .
 
-    # echo "Creating commit..."
-    # git commit -m "Publishing site $(date)"
+    echo "Creating commit..."
+    git commit -m "Publishing site $(date)"
 
-    # echo "Pushing to repo..."
-    # git push --set-upstream origin master
+    echo "Pushing to repo..."
+    git push --set-upstream origin master
 
     # Now add all the changes and commit and push
-    git add . && \
-    git commit -m "Publishing site $(date)" && \
-    git push origin master
+    # git add . && \
+    # git commit -m "Publishing site $(date)" && \
+    # git push origin master
 )
 
 echo 'Complete'
