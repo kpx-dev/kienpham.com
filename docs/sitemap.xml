@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://kienpham2000.github.io/blog/about/</loc>
     <lastmod>2019-11-17T10:30:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://kienpham2000.github.io/blog/</loc>
     <lastmod>2019-11-17T10:30:34-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/hello-world/</loc>
+    <loc>https://kienpham2000.github.io/blog/posts/hello-world/</loc>
     <lastmod>2019-11-17T10:28:09-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://kienpham2000.github.io/blog/posts/</loc>
     <lastmod>2019-11-17T10:28:09-08:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://kienpham2000.github.io/blog/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://kienpham2000.github.io/blog/tags/</loc>
   </url>
   
 </urlset>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Kien Pham Blog</title>
-    <link>/posts/</link>
+    <link>https://kienpham2000.github.io/blog/posts/</link>
     <description>Recent content in Posts on Kien Pham Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 17 Nov 2019 10:28:09 -0800</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kienpham2000.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>/posts/hello-world/</link>
+      <link>https://kienpham2000.github.io/blog/posts/hello-world/</link>
       <pubDate>Sun, 17 Nov 2019 10:28:09 -0800</pubDate>
       
-      <guid>/posts/hello-world/</guid>
+      <guid>https://kienpham2000.github.io/blog/posts/hello-world/</guid>
       <description>Finally a blog</description>
     </item>
     
