@@ -6,11 +6,7 @@
     <description>Recent content on Kien Pham Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2019 10:30:34 -0800</lastBuildDate>
-    
-	<atom:link href="https://kienpham.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 17 Nov 2019 10:28:09 -0800</lastBuildDate><atom:link href="https://kienpham.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://kienpham.com/about/</link>
@@ -21,7 +17,7 @@
     </item>
     
     <item>
-      <title>Hello World</title>
+      <title>Hello World - Test</title>
       <link>https://kienpham.com/posts/hello-world/</link>
       <pubDate>Sun, 17 Nov 2019 10:28:09 -0800</pubDate>
       
