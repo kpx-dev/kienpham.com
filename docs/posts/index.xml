@@ -6,7 +6,11 @@
     <description>Recent content in Posts on Kien Pham</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 10:28:09 -0800</lastBuildDate><atom:link href="https://kienpham.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 10:28:09 -0800</lastBuildDate>
+    
+	<atom:link href="https://kienpham.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>The Wheel Strategy</title>
       <link>https://kienpham.com/posts/the-wheel-strategy/</link>
@@ -14,8 +18,7 @@
       
       <guid>https://kienpham.com/posts/the-wheel-strategy/</guid>
       <description>Options Basic Let&amp;rsquo;s say you own 100 shares of TSLA and you don&amp;rsquo;t really care if it goes up or down, you like to hold it long term, basically you are bullish in the long run (few years+). One approach you can do to hedge against risk being bearish in the short run (weeks / month).
-You can sell 1 Covered Call since 1 option is worth 100 shares.
-Selling Covered Call (CC) Buying Cash Secured Put (CSP) </description>
+You can sell 1 Covered Call since 1 option is worth 100 shares.</description>
     </item>
     
   </channel>
