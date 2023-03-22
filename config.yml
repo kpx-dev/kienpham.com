@@ -64,7 +64,7 @@ params:
   profileMode:
     enabled: true
     title: Kien Pham
-    subtitle: "Softare Engineer based in Orange County, CA."
+    subtitle: "Software Engineer based in Orange County, CA."
     imageUrl: "images/kienpham.jpg"
     imageWidth: 200
     imageHeight: 200
