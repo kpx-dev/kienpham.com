@@ -6,7 +6,6 @@ uglyurls: false
 googleAnalytics: UA-68379-1
 languageCode: en-us
 theme: PaperMod # paper Cactus PaperMod
-publishdir: docs
 sectionPagesMenu: main
 relativeURLs: true
 paginate: 100
