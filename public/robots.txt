@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://kienpham.com/sitemap.xml
