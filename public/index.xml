@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Kien Pham</title>
-    <link>https://kienpham.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Kien Pham</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <image>
+      <title>Kien Pham</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 10:28:09 -0800</lastBuildDate><atom:link href="https://kienpham.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 10:28:09 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Wheel Strategy</title>
-      <link>https://kienpham.com/posts/the-wheel-strategy/</link>
+      <title>Wheeling SPY</title>
+      <link>http://localhost:1313/posts/wheeling-spy/</link>
       <pubDate>Sat, 18 Mar 2023 10:28:09 -0800</pubDate>
-      
-      <guid>https://kienpham.com/posts/the-wheel-strategy/</guid>
-      <description>Options Basic Let&amp;rsquo;s say you own 100 shares of TSLA and you don&amp;rsquo;t really care if it goes up or down, you like to hold it long term, basically you are bullish in the long run (few years+). One approach you can do to hedge against risk being bearish in the short run (weeks / month).
-You can sell 1 Covered Call since 1 option is worth 100 shares.
-Selling Covered Call (CC) Buying Cash Secured Put (CSP) </description>
+      <guid>http://localhost:1313/posts/wheeling-spy/</guid>
+      <description>Discussing an approach to wheel SPY.</description>
     </item>
-    
     <item>
       <title>About</title>
-      <link>https://kienpham.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 17 Nov 2019 10:30:34 -0800</pubDate>
-      
-      <guid>https://kienpham.com/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>I&amp;rsquo;m currently living in Orange County, California. I need to write more.</description>
     </item>
-    
     <item>
       <title>Open Source Projects</title>
-      <link>https://kienpham.com/projects/</link>
+      <link>http://localhost:1313/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kienpham.com/projects/</guid>
+      <guid>http://localhost:1313/projects/</guid>
       <description>aws-news - AWS What&amp;rsquo;s New sent to Slack via webhook
 trading-bot - Bot to help with buying / selling options</description>
     </item>
-    
-    <item>
-      <title>Search</title>
-      <link>https://kienpham.com/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kienpham.com/search/</guid>
-      <description>search</description>
-    </item>
-    
   </channel>
 </rss>
