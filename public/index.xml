@@ -14,11 +14,11 @@
     <lastBuildDate>Sat, 18 Mar 2023 10:28:09 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Wheeling SPY</title>
-      <link>http://localhost:1313/posts/wheeling-spy/</link>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Sat, 18 Mar 2023 10:28:09 -0800</pubDate>
-      <guid>http://localhost:1313/posts/wheeling-spy/</guid>
-      <description>Discussing an approach to wheel SPY.</description>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>Hello World!</description>
     </item>
     <item>
       <title>About</title>
