@@ -3,7 +3,6 @@ baseURL: "https://kienpham.com/"
 ignoreFiles: [ "\\.files/README.md$",  ]
 defaultContentLanguage: en
 uglyurls: false
-googleAnalytics: UA-68379-1
 languageCode: en-us
 theme: PaperMod # paper Cactus PaperMod
 sectionPagesMenu: main
